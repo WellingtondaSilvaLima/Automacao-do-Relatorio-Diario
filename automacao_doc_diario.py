@@ -37,7 +37,8 @@ with open('geracao_online.txt', 'a') as arquivo:
     arquivo.write('*'*92)
     for i in range(1, 21):
         arquivo.write(f'''
-*** cliente com liberação para cadastro do SIM CLUB****
+*** cliente com liberação para cadastro do SIM CLUB****\n
+*** CAMPANHA COBRANÇA - Não tem curso, apenas o Online ****
 
 {i}-
 
